@@ -1,0 +1,12 @@
+torch==2.0.1
+numpy==1.24.3
+transformers==4.38.2
+einops==0.7.0
+fancy_einsum==0.0.3
+tqdm==4.65.0
+scipy==1.11.1
+torchtyping==0.1.4
+jaxtyping==0.2.25
+datasets==2.18.0
+transformer_lens
+pynvml
