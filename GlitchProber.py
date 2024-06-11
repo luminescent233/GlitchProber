@@ -366,10 +366,6 @@ class glitchprober:
 
 
         def generate_fix_response(tokens, times, max_new_tokens=10):
-            # alpha = 5
-            # beta = 2 
-            start_layer = 19
-            end_layer = 28
 
             def mlp_pre_hook_layer(
                 value: Float[torch.Tensor, "batch pos d_mlp"],
