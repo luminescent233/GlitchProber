@@ -83,7 +83,7 @@ class glitchprober:
         elif 'gemma-2b-it' in self.model_name:
             self.trlens_model_type = "google/gemma-2b-it"
             self.model_type = 'gemma-2b-it'
-            self.Key_layers = range(5, 15)
+            self.Key_layers = range(6, 16)
             self.layer_num = 18
             self.k_1 = 25
             self.b_1 = 0.5
